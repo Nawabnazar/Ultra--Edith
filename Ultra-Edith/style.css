@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+li {
+  font-family: "abel";
+  margin: 24px;
+  margin-right: 45px;
+  margin-top: 38px;
+  cursor: pointer;
+  display: flex;
+}
+select {
+  padding: 12px;
+  width: 12px;
+  height: 12px;
+  border: none;
+}
+.lang-img {
+  padding: 20px;
+  margin-top: -15px;
+  margin-right: 10px;
+}
+
+.image-can {
+  margin: -117px 135px;
+  padding: 10px;
+  display: flex;
+}
+h2 {
+  margin-left: -120px;
+  margin-top: 20px;
+  font-family: "Poppins";
+}
+
+h6 {
+  margin-top: 50px;
+  margin-left: -120px;
+}
+
+.Home {
+  font-family: "Cormorant Garamond";
+  font-size: 17px;
+  margin: 109px -175px;
+  color: rgb(107, 105, 105);
+  display: flex;
+}
+.angle {
+  margin-top: -12px;
+  font-size: 20px;
+  padding: 10px;
+}
+.What {
+  float: right;
+  margin-right: 90px;
+  margin-top: -33px;
+  font-family: "abel";
+}
+.main {
+  display: grid;
+  grid-template-areas: "side side";
+  place-content: center;
+  gap: 2px;
+}
+.main-div {
+  grid-area: side;
+  padding: 30px;
+  font-size: 39px;
+}
+.Context{
+  margin: 37px 50px;
+  text-align:center ;
+  font-size: 27px;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.System{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 75px;
+
+}
+.Win{
+  height: 13rem;
+  width: 20rem;
+  background-color:rgb(239, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.Mac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  height: 13rem;
+  width: 20rem;
+  background-color:rgb(239, 239, 239);
+  font-size: 24px;
+}
+.Linux{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  height: 13rem;
+  width: 20rem;
+  background-color:rgb(239, 239, 239);
+  font-size: 24px;
+}
+.Button{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap:100px; */
+  margin-top: -62px;
+    
+}
+.Button1{
+  background-color: rgb(78, 182, 224);
+  color: antiquewhite;
+  font-size: 20px;
+  width: 210px;
+  height: 43px;
+  margin-right: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 130px;
+  cursor: pointer;
+}
+
+.Button2{
+  background-color: rgb(78, 182, 224);
+  color: antiquewhite;
+  font-size: 20px;
+  width: 210px;
+  height: 43px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 130px;
+  cursor: pointer;
+}
+.Button3{
+  background-color: rgb(78, 182, 224);
+  color: antiquewhite;
+  font-size: 20px;
+  width: 210px;
+  height: 43px;
+  border: none;
+  border-radius: 5px;
+  margin-right: -60px;
+  cursor: pointer;
+  
+}
